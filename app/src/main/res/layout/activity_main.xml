@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/rb_index"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/select_blueswitch"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/image_home"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/rb_info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/select_blueswitch"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/image_info"
+            android:gravity="center"
+            android:text="资讯"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/rb_book"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/select_blueswitch"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/image_book"
+            android:gravity="center"
+            android:text="图书"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/rb_paper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/select_blueswitch"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:drawableTop="@drawable/image_mige"
+            android:gravity="center"
+            android:text="期刊"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/rb_user"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/select_blueswitch"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:drawableTop="@drawable/image_user"
+            android:gravity="center"
+            android:text="个人"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+    </RadioGroup>
+
+</LinearLayout>

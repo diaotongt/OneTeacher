@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="15.0dip" >
+
+    <ImageView
+        android:id="@+id/iv_child_index_book_city"
+        android:layout_width="80.0dip"
+        android:layout_height="120.0dip"
+        android:background="@drawable/image_book_default"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_child_index_book_city_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:gravity="center"
+        android:maxEms="4"
+        android:singleLine="true"
+        android:text="气定神闲"
+        android:textSize="@dimen/mid_textsize" />
+
+    <TextView
+        android:id="@+id/tv_child_index_book_city_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:gravity="center"
+        android:maxEms="5"
+        android:singleLine="true"
+        android:text="吉安娜"
+        android:textColor="@color/main_textcolor"
+        android:textSize="@dimen/tiny_textsize" />
+
+</LinearLayout>

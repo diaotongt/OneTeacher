@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/blue"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="10.0dip">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="图书频道"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_textsize" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_index_community_book_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10.0dip">
+
+            <TextView
+                android:id="@+id/tv_index_community_book_department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="学科分类"
+                android:textColor="#ff777777"
+                android:textSize="18.0sp" />
+
+            <ImageView
+                android:id="@+id/iv_index_community_book_subjec_arrow_down"
+                android:layout_width="30.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:padding="5.0dip"
+                android:src="@drawable/image_down" />
+        </LinearLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_index_community_book_search"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:src="@drawable/image_search_grey" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/lightgrey" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:background="@color/light_grey" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/light_grey" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.handmark.pulltorefresh.library.PullToRefreshGridView
+            android:id="@+id/pgv_book"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10.0dip"
+            android:focusable="false"
+            android:numColumns="3"
+            android:verticalSpacing="5.0dip"></com.handmark.pulltorefresh.library.PullToRefreshGridView>
+
+        <LinearLayout
+            android:id="@+id/ll_index_book_city_loading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/bg_grey"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image_loading_default" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

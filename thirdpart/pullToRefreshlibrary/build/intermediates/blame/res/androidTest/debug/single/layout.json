@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\ASP\\OneTeacher\\thirdpart\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\ASP\\OneTeacher\\thirdpart\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\ASP\\OneTeacher\\thirdpart\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\ASP\\OneTeacher\\thirdpart\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    }
+]

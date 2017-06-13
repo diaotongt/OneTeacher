@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号 :"
+            android:textSize="@dimen/mid_textsize" />
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/et_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bg_grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码 :"
+            android:textSize="@dimen/mid_textsize" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/et_pwd"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bg_grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="*请用龙岗教育平台账号密码登录"
+        android:textColor="@color/c_grey"
+        android:textSize="@dimen/tiny_textsize" />
+
+    <TextView
+        android:id="@+id/tv_logoin"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/image_button_blue_bg"
+        android:gravity="center"
+        android:text="登陆"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large_textsize" />
+
+</LinearLayout>

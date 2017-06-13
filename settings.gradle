@@ -1,0 +1,2 @@
+include ':app', ':pullToRefreshlibrary'
+project(':pullToRefreshlibrary').projectDir = new File('thirdpart/pullToRefreshlibrary')

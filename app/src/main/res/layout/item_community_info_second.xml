@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_community_info_second_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:text="02-28"
+            android:textColor="@color/c_grey"
+            android:textSize="@dimen/tiny_textsize" />
+
+        <TextView
+            android:id="@+id/tv_community_info_second_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="0.0"
+            android:text="\#观点#"
+            android:textColor="@color/c_grey"
+            android:textSize="@dimen/tiny_textsize" />
+
+        <TextView
+            android:id="@+id/tv_community_info_second_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text="俄罗斯首次将美国列为国家安全威胁"
+            android:textColor="@color/black"
+            android:textSize="@dimen/mid_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_community_info_second_icon"
+            android:layout_width="150.0dip"
+            android:layout_height="100.0dip"
+            android:background="@drawable/image_community_info_pic_default"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_community_info_second_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1.0"
+            android:text="中国青年报"
+            android:textColor="@color/main_textcolor"
+            android:textSize="@dimen/tiny_textsize" />
+    </LinearLayout>
+
+</LinearLayout>
